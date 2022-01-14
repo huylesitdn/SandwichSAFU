@@ -1,0 +1,343 @@
+.decentralized-ecosystem {
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: #fff;
+  border-radius: 20px;
+  background: url('/assets/images/decentralized-ecosystem-bg.svg');
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .container {
+    padding: 100px 0;
+  }
+
+  .content {
+    min-height: 250px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    padding: 50px 100px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Neutrals/4 */
+
+    color: #777E91;
+
+    background: rgba(255, 255, 255, 0.58);
+    backdrop-filter: blur(59px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 17px;
+    border: 2px solid #F6F6F6;
+  }
+
+  h4 {
+    font-family: var(--font-family-2);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    /* Neutrals/2 */
+
+    color: #23262F;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    display: flex;
+    place-items: center;
+
+    img {
+      margin-right: 50px;
+    }
+
+    div {
+      padding-left: 50px;
+      border-left: 2px solid rgba(255, 87, 87, 0.2);
+    }
+  }
+
+  .item {
+    display: flex;
+    place-items: center;
+
+    span {
+      display: inline-flex;
+      padding: 10px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .decentralized-ecosystem {
+    padding: 0;
+    border-radius: 20px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .container {
+      padding: 100px 0;
+    }
+  
+    .content {
+      min-height: 250px;
+      padding: 50px 100px;
+      font-size: 24px;
+      line-height: 29px;
+      background: rgba(255, 255, 255, 0.58);
+      backdrop-filter: blur(59px);
+      border-radius: 17px;
+      border: 2px solid #F6F6F6;
+    }
+  
+    h4 {
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+  
+    .logo {
+      display: flex;
+      place-items: center;
+  
+      img {
+        margin-right: 50px;
+      }
+  
+      div {
+        padding-left: 50px;
+        border-left: 2px solid rgba(255, 87, 87, 0.2);
+      }
+    }
+  
+    .item {
+  
+      span {
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .decentralized-ecosystem {
+    padding: 0;
+    border-radius: 20px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .container {
+      padding: 100px 0;
+    }
+  
+    .content {
+      min-height: 250px;
+      padding: 50px 50px;
+      font-size: 23px;
+      line-height: 29px;
+      background: rgba(255, 255, 255, 0.58);
+      backdrop-filter: blur(59px);
+      border-radius: 17px;
+      border: 2px solid #F6F6F6;
+    }
+  
+    h4 {
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
+  
+    .logo {
+      display: flex;
+      place-items: center;
+  
+      img {
+        margin-right: 30px;
+        max-width: 200px;
+      }
+  
+      div {
+        padding-left: 30px;
+        border-left: 2px solid rgba(255, 87, 87, 0.2);
+      }
+    }
+  
+    .item {
+  
+      span {
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .decentralized-ecosystem {
+    padding: 0;
+    border-radius: 20px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .container {
+      padding: 100px 0;
+    }
+  
+    .content {
+      min-height: 200px;
+      padding: 30px 20px;
+      font-size: 20px;
+      line-height: 29px;
+      backdrop-filter: blur(59px);
+      border-radius: 17px;
+      border: 2px solid #F6F6F6;
+    }
+  
+    .logo {
+  
+      img {
+        margin-right: 20px;
+        max-width: 150px;
+      }
+  
+      div {
+        padding-left: 20px;
+        border-left: 2px solid rgba(255, 87, 87, 0.2);
+      }
+    }
+  
+    .item {
+  
+      span {
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .decentralized-ecosystem {
+    padding: 0;
+    border-radius: 20px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .container {
+      padding: 100px 0;
+    }
+  
+    .content {
+      min-height: 150px;
+      padding: 20px 0;
+      font-size: 20px;
+      line-height: 29px;
+      backdrop-filter: blur(59px);
+      border-radius: 17px;
+      border: 2px solid #F6F6F6;
+    }
+  
+    .logo {
+  
+      img {
+        margin-right: 20px;
+        max-width: 150px;
+      }
+  
+      div {
+        padding-left: 20px;
+        border-left: 2px solid rgba(255, 87, 87, 0.2);
+      }
+    }
+  
+    .item {
+  
+      span {
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .decentralized-ecosystem {
+    padding: 0;
+    border-radius: 20px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    .container {
+      padding: 50px 15px;
+      min-width: 100%;
+    }
+  
+    .content {
+      min-height: 150px;
+      padding: 20px 0;
+      font-size: 20px;
+      line-height: 29px;
+      backdrop-filter: blur(59px);
+      border-radius: 17px;
+      border: 2px solid #F6F6F6;
+
+      .text-center {
+        text-align: left !important;
+        margin-top: 15px;
+      }
+    }
+  
+    .logo {
+  
+      img {
+        margin-right: 20px;
+        max-width: 150px;
+      }
+  
+      div {
+        padding-left: 20px;
+        border-left: 2px solid rgba(255, 87, 87, 0.2);
+      }
+    }
+  
+    .item {
+  
+      span {
+        padding: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {}

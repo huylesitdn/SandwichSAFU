@@ -1,0 +1,369 @@
+.top-section {
+  overflow: hidden;
+  height: calc(100vh - 100px);
+  padding: 50px;
+  // background: url('/assets/images/top-home-bg.png');
+  background-color: var(--white-color);
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: var(--gray-color);
+  position: relative;
+  background: url('/assets/images/top-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .content {
+    h1 {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 81px;
+      color: #23262F;
+
+      span {
+        color: var(--danger-color);
+      }
+    }
+
+    .sub-content {
+      font-family: var(--font-family);
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 31px;
+      padding: 20px 40px 40px 0;
+    }
+
+    button {
+      margin-right: 20px;
+    }
+  }
+
+  .partners {
+
+    &__item {
+      cursor: pointer;
+      transition: 0.3s;
+
+      &__img {
+        min-height: 40px;
+
+        img {
+          max-height: 40px;
+        }
+      }
+
+      &__text {
+        margin-left: 20px;
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 15px;
+        /* identical to box height */
+
+        letter-spacing: 0.115em;
+        text-transform: uppercase;
+
+        color: #B6B6B6;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1600px) {
+  .top-section {
+    overflow: hidden;
+    height: calc(100vh - 100px);
+    padding: 50px;
+    background-size: 100%;
+
+    .content {
+      h1 {
+        font-size: 50px;
+        line-height: 60px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 16px;
+        line-height: 31px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .top-section {
+    height: calc(100vh - 100px);
+    padding: 40px 0;
+    background-size: 100%;
+
+    .content {
+      h1 {
+        font-size: 45px;
+        line-height: 60px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 16px;
+        line-height: 31px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        &__img {
+          img {
+            height: 30px;
+          }
+        }
+
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .top-section {
+    height: calc(100vh - 100px);
+    padding: 40px 0;
+    background-size: 100%;
+    background-position: right;
+
+    .content {
+      h1 {
+        font-size: 40px;
+        line-height: 55px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .top-section {
+    height: calc(100vh - 70px);
+    padding: 40px 0;
+    background-size: 100%;
+    background-position: right;
+
+    .content {
+      h1 {
+        font-size: 40px;
+        line-height: 55px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-section {
+    height: calc(100vh - 70px);
+    padding: 40px 0;
+    background-size: 100%;
+    background-position: right;
+
+    .container {
+      max-width: 100%;
+    }
+
+    .content {
+      h1 {
+        font-size: 40px;
+        line-height: 55px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 20px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        margin-bottom: 20px;
+
+        &__img {
+          img {
+            max-height: 40px;
+            width: auto;
+          }
+        }
+
+        &__text {
+          margin-left: 0;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .top-section {
+    height: calc(100vh - 70px);
+    padding: 40px 0;
+    background-size: 100%;
+    background-position: right;
+
+    .container {
+      max-width: 100%;
+    }
+
+    .content {
+      h1 {
+        font-size: 40px;
+        line-height: 55px;
+        color: #23262F;
+      }
+
+      .sub-content {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 20px 40px 40px 0;
+      }
+
+      button {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .partners {
+
+      &__item {
+        margin-bottom: 20px;
+
+        &__img {
+          img {
+            max-height: 40px;
+            width: auto;
+          }
+        }
+
+        &__text {
+          margin-left: 0;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+.how-to-buy-section {
+  .how-to-buy {
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: #fff;
+    margin-top: -100px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+
+
+    .content {
+      background: url('/assets/images/how-to-buy-bg.png');
+      // background-size: 50%;
+      background-position: right;
+      background-repeat: no-repeat;
+      box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+      border-radius: 20px;
+      padding: 50px;
+      place-content: space-between;
+      place-items: center;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      /* identical to box height, or 160% */
+
+      letter-spacing: -0.01em;
+
+      /* Neutrals/2 */
+
+      color: #23262F;
+    }
+
+    h4 {
+      font-family: var(--font-family-2);
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      /* identical to box height */
+
+
+      /* Neutrals/2 */
+
+      color: #23262F;
+      margin-bottom: 20px;
+    }
+
+    .item {
+      display: flex;
+      place-items: center;
+
+      span {
+        display: inline-flex;
+        padding: 10px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .how-to-buy {
+      padding: 0;
+      margin-top: -100px;
+      margin-bottom: 150px;
+      border-radius: 20px;
+
+      .content {
+        // background-size: 50%;
+        background-position: right;
+        background-repeat: no-repeat;
+        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        padding: 30px;
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+
+        span {
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .how-to-buy-section {
+    .how-to-buy {
+      padding: 0;
+      margin-top: -100px;
+      margin-bottom: 80px;
+      border-radius: 20px;
+
+      .content {
+        // background-size: 50%;
+        background-position: right;
+        background-repeat: no-repeat;
+        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        padding: 30px;
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+
+        span {
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .how-to-buy-section {
+    .how-to-buy {
+      padding: 0;
+      margin-top: -100px;
+      margin-bottom: 70px;
+      border-radius: 20px;
+
+      .content {
+        // background-size: 50%;
+        background-position: right;
+        background-repeat: no-repeat;
+        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        padding: 15px;
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 25px;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+
+        span {
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .how-to-buy-section {
+    .container {
+      min-width: 100%;
+    }
+
+    .how-to-buy {
+      padding: 0;
+      margin-top: -100px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+
+
+      .content {
+        // background-size: 50%;
+        background-position: right;
+        background-repeat: no-repeat;
+        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        padding: 15px 0;
+        font-size: 14px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 22px;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+
+        span {
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+
+      button {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .how-to-buy-section {
+    .container {
+      min-width: 100%;
+    }
+
+    .how-to-buy {
+      padding: 0;
+      margin-top: -100px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+
+
+      .content {
+        // background-size: 50%;
+        background-position: right;
+        background-repeat: no-repeat;
+        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
+        border-radius: 20px;
+        padding: 10px 0;
+        font-size: 12px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 22px;
+        line-height: 48px;
+        margin-bottom: 20px;
+      }
+
+      .item {
+        span {
+          padding: 5px;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+
+      button {
+        margin-top: 15px;
+      }
+    }
+  }
+}
