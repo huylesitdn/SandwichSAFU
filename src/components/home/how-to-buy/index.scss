@@ -61,38 +61,38 @@
       }
     }
   }
+}
 
-  @media only screen and (max-width: 1400px) {
-    .how-to-buy {
-      padding: 0;
-      margin-top: -100px;
-      margin-bottom: 150px;
+@media only screen and (max-width: 1400px) {
+  .how-to-buy {
+    padding: 0;
+    margin-top: -100px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+
+    .content {
+      // background-size: 50%;
+      background-position: right;
+      background-repeat: no-repeat;
+      box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
       border-radius: 20px;
+      padding: 30px;
+      font-size: 20px;
+      line-height: 32px;
+    }
 
-      .content {
-        // background-size: 50%;
-        background-position: right;
-        background-repeat: no-repeat;
-        box-shadow: 0px 59px 109px rgba(0, 0, 0, 0.06);
-        border-radius: 20px;
-        padding: 30px;
-        font-size: 20px;
-        line-height: 32px;
-      }
+    h4 {
+      font-size: 30px;
+      line-height: 48px;
+      margin-bottom: 20px;
+    }
 
-      h4 {
-        font-size: 30px;
-        line-height: 48px;
-        margin-bottom: 20px;
-      }
+    .item {
 
-      .item {
-
-        span {
-          padding: 10px;
-          border-radius: 50%;
-          margin-right: 20px;
-        }
+      span {
+        padding: 10px;
+        border-radius: 50%;
+        margin-right: 20px;
       }
     }
   }

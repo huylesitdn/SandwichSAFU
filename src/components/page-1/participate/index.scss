@@ -1,0 +1,598 @@
+.participate {
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: #fff;
+
+  .container {
+    padding: 100px 0 50px;
+  }
+
+  .content {
+    background: #FF5757;
+    backdrop-filter: blur(59px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 27px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    padding: 0px 0px 0px 100px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Neutrals/4 */
+
+    color: #fff;
+
+    .socials {
+
+      .btn {
+        margin-bottom: 20px;
+        padding: 10px 24px;
+
+        &.btn-light {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 36px;
+          /* identical to box height, or 200% */
+
+          color: #FF5757;
+          // min-width: 340px;
+
+          img {
+            margin-left: 15px;
+          }
+        }
+
+        &.btn-outline-secondary {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 36px;
+          /* identical to box height, or 257% */
+
+          border-color: #fff;
+          color: #FFFFFF;
+        }
+      }
+
+      &.two {
+        .btn {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  .partners {
+    margin-top: 50px;
+
+    &__item {
+      cursor: pointer;
+      transition: 0.3s;
+
+      &__img {
+        min-height: 40px;
+
+        img {
+          max-height: 40px;
+        }
+      }
+
+      &__text {
+        margin-left: 20px;
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 15px;
+        /* identical to box height */
+
+        letter-spacing: 0.115em;
+        text-transform: uppercase;
+
+        color: #B6B6B6;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  h4 {
+    font-family: var(--font-family-2);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    /* identical to box height, or 127% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+    /* or 194% */
+
+
+    color: #FFFFFF;
+    margin-bottom: 50px;
+  }
+
+  .logo {
+    display: flex;
+    place-items: flex-end;
+    place-content: flex-end;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .participate {
+    padding: 0;
+  
+    .container {
+      padding: 100px 0 50px;
+    }
+  
+    .content {
+      padding: 0px 0px 0px 50px;
+      font-size: 24px;
+      line-height: 29px;
+  
+      .socials {
+  
+        .btn {
+          margin-bottom: 20px;
+          padding: 10px 24px;
+  
+          &.btn-light {
+            font-size: 18px;
+            line-height: 36px;
+            img {
+              margin-left: 15px;
+            }
+          }
+  
+          &.btn-outline-secondary {
+            font-size: 14px;
+            line-height: 36px;
+          }
+        }
+  
+        &.two {
+          .btn {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  
+    .partners {
+      margin-top: 50px;
+  
+      &__item {
+        cursor: pointer;
+        transition: 0.3s;
+  
+        &__img {
+          min-height: 40px;
+  
+          img {
+            max-height: 40px;
+          }
+        }
+  
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 44px;
+      line-height: 56px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      line-height: 31px;
+      margin-bottom: 50px;
+    }
+  
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .participate {
+    padding: 0;
+  
+    .container {
+      padding: 100px 0 50px;
+    }
+  
+    .content {
+      padding: 0px 0px 0px 40px;
+      font-size: 24px;
+      line-height: 29px;
+  
+      .socials {
+  
+        .btn {
+          margin-bottom: 20px;
+          padding: 10px 24px;
+  
+          &.btn-light {
+            font-size: 18px;
+            line-height: 36px;
+            img {
+              margin-left: 15px;
+            }
+          }
+  
+          &.btn-outline-secondary {
+            font-size: 14px;
+            line-height: 36px;
+          }
+        }
+  
+        &.two {
+          .btn {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  
+    .partners {
+      margin-top: 50px;
+  
+      &__item {
+        cursor: pointer;
+        transition: 0.3s;
+  
+        &__img {
+          min-height: 40px;
+  
+          img {
+            max-height: 40px;
+          }
+        }
+  
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 44px;
+      line-height: 56px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      line-height: 31px;
+      margin-bottom: 50px;
+    }
+  
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+  .participate {
+    padding: 0;
+  
+    .container {
+      padding: 50px 0 50px;
+    }
+  
+    .content {
+      padding: 30px 0px 30px 30px;
+      font-size: 24px;
+      line-height: 29px;
+  
+      .socials {
+  
+        .btn {
+          margin-bottom: 20px;
+          padding: 10px 24px;
+  
+          &.btn-light {
+            font-size: 18px;
+            line-height: 36px;
+            img {
+              margin-left: 15px;
+            }
+          }
+  
+          &.btn-outline-secondary {
+            font-size: 14px;
+            line-height: 36px;
+          }
+        }
+  
+        &.two {
+          .btn {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  
+    .partners {
+      margin-top: 50px;
+  
+      &__item {
+        cursor: pointer;
+        transition: 0.3s;
+  
+        &__img {
+          min-height: 40px;
+  
+          img {
+            max-height: 40px;
+          }
+        }
+  
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 40px;
+      line-height: 56px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      line-height: 31px;
+      margin-bottom: 50px;
+    }
+  
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .participate {
+    padding: 0;
+  
+    .container {
+      padding: 50px 0 50px;
+    }
+  
+    .content {
+      padding: 30px 0px 30px 30px;
+      font-size: 24px;
+      line-height: 29px;
+  
+      .socials {
+  
+        .btn {
+          margin-bottom: 20px;
+          padding: 10px 24px;
+  
+          &.btn-light {
+            font-size: 18px;
+            line-height: 36px;
+            img {
+              margin-left: 15px;
+            }
+          }
+  
+          &.btn-outline-secondary {
+            font-size: 14px;
+            line-height: 36px;
+          }
+        }
+  
+        &.two {
+          .btn {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  
+    .partners {
+      margin-top: 50px;
+  
+      &__item {
+        cursor: pointer;
+        transition: 0.3s;
+        margin-bottom: 20px;
+  
+        &__img {
+          min-height: 40px;
+  
+          img {
+            max-height: 40px;
+          }
+        }
+  
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 40px;
+      line-height: 56px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      line-height: 31px;
+      margin-bottom: 50px;
+    }
+  
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .participate {
+    padding: 0;
+  
+    .container {
+      padding: 50px 15px 50px;
+    }
+  
+    .content {
+      padding: 30px 0px 30px 30px;
+      font-size: 24px;
+      line-height: 29px;
+  
+      .socials {
+  
+        .btn {
+          margin-bottom: 20px;
+          padding: 10px 24px;
+  
+          &.btn-light {
+            font-size: 18px;
+            line-height: 36px;
+            img {
+              margin-left: 15px;
+            }
+          }
+  
+          &.btn-outline-secondary {
+            font-size: 14px;
+            line-height: 36px;
+          }
+        }
+  
+        &.two {
+          .btn {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  
+    .partners {
+      margin-top: 50px;
+  
+      &__item {
+        cursor: pointer;
+        transition: 0.3s;
+  
+        &__img {
+          min-height: 40px;
+  
+          img {
+            max-height: 40px;
+          }
+        }
+  
+        &__text {
+          margin-left: 20px;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 15px;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  
+    h4 {
+      font-size: 40px;
+      line-height: 56px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  
+    h5 {
+      font-size: 16px;
+      line-height: 31px;
+      margin-bottom: 50px;
+    }
+  
+    .logo {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+}

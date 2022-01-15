@@ -1,32 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Page1 from "pages/page-1";
 
-import { routes } from "./routes";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        {routes.map((route, i) => (
-          <Route
-            key={i}
-            path={route.path}
-            render={(props) => {
-              if(!!route.layout) {
-                return (
-                  <route.layout>
-                    <route.component {...props} routes={route.routes} />
-                  </route.layout>
-                )
-              }
-              return <route.component {...props} routes={route.routes} />
-            }}
-          />
-        ))}
-      </Switch>
-    </BrowserRouter>
+    <Page1/>
   </React.StrictMode>,
   document.getElementById("root")
 );
